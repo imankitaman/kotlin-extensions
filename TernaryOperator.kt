@@ -1,9 +1,5 @@
 package `in`.redbus.android.kotlinExtensionFunctions
 
-/**
- * Created by ankitaman on 14/02/18.
- */
-
 
 /**
  * Use as ternary Operator

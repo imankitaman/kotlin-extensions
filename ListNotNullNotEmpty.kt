@@ -1,8 +1,6 @@
 package `in`.redbus.android.kotlinExtensionFunctions
 
-/**
- * Created by ankitaman on 29/01/18.
- */
+
 
 inline fun <E: Any, T: Collection<E>> T?.withNotNullNorEmpty(func: T.() -> Unit): T? {
     if (this != null && this.isNotEmpty()) {
